@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "12-aula-12"
+version = "0.1.0"
+description = ""
+authors = ["Felipe"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.112.0"
+uvicorn = {extras = ["standard"], version = "^0.30.5"}
+sqlalchemy = "^2.0.31"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
